@@ -1,0 +1,89 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.react-codemirror2, .CodeMirror {
+  height: 100%;
+}
+
+.tab-button {
+  outline: none;
+  display: inline-block;
+  padding: 0.2em 1.45em;
+  margin: 0.1em;
+  border: 0.15em solid #CCCCCC;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #CCCCCC;
+  text-align: center;
+  position: relative;
+}
+
+.tab-button:hover{
+  border-color: #7a7a7a;
+}
+.tab-button:active{
+  
+  background-color: #999999;
+}
+.tab-button-active {
+  background-color: #999999;
+  border: 0.15em solid #7a7a7a;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list items */
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+  float: left;
+}
+
+/* Add a light grey background color on hover */
+ul li:hover {
+  background-color: #eee;
+}
+
+/* Style the close button (span) */
+.close {
+  cursor: pointer;
+  position: unset;
+  right: 0;
+  padding: 4px;
+}
+
+.close:hover {background: #bbb;}
+
+.modal {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+    background: white;
+}

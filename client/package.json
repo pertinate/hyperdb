@@ -1,0 +1,49 @@
+{
+  "name": "ts-backend-express-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --port 5000 -d --content-base ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pertinate/development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pertinate/development/issues"
+  },
+  "homepage": "https://github.com/pertinate/development#readme",
+  "dependencies": {
+    "@types/prismjs": "^1.16.1",
+    "@types/react": "^16.9.48",
+    "@types/react-codemirror": "^1.0.3",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-syntax-highlighter": "^11.0.5",
+    "codemirror": "^5.57.0",
+    "highlight.js": "^10.1.2",
+    "prismjs": "^1.21.0",
+    "react": "^16.13.1",
+    "react-codemirror": "^1.0.0",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^16.13.1",
+    "react-simple-code-editor": "^0.11.0",
+    "react-syntax-highlighter": "^13.5.1",
+    "ts-loader": "^8.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
